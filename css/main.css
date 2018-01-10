@@ -2,9 +2,38 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    background-color:#FFDAA1
 }
 
 .nav-bar h3 {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+body{
+background-color:#D8FFFE;
+
+}
+
+.container{
+background-color:#FFF19C;
+margin-left:7%;
+margin-right:7%;
+
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:;
+    }
+
+
+
+.flex-item{
+margin:30px;
+}
+
+aside{
+    padding-top:200px;
 }
