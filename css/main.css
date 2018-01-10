@@ -9,15 +9,12 @@
     padding-right: 20px;
 }
 
-#footer {
-    clear: both;
-    height: 200px;
-    width: 900px;
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
     text-align: center;
-    margin: 0px 0px 0px 0px;
-    font-family: arial, helvetica;
-    font-weight: bold ;
-    font-size: 11px;
-    background-color: rgb(0, 0, 0);
-    
-    }
+  }
