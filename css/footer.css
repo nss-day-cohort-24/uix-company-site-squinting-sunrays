@@ -7,6 +7,20 @@
     background-color: #FFDAA1;
     text-align: center;
   }
+
+  .footer-nav > li {
+    float: left;
+    list-style-type: none;
+    margin: 5px 15px 0 15px;
+    font-family: "Arial";
+    cursor: pointer;
+}
+
+.footer-nav > li:hover {
+    color: white;
+}
+
+  /* social media link style */
   .fa {
     padding: 10px;
     font-size: 20px;
