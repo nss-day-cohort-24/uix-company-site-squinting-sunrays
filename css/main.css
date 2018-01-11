@@ -1,3 +1,8 @@
+html{
+    position:relative; 
+    min-height: 100%;
+  }
+
 .nav-bar {
     display: flex;
     align-items: center;
@@ -10,19 +15,20 @@
     padding-right: 20px;
 }
 
-
-
+html,body{
+    margin:0;
+    padding:0;
+  } 
 
 body{
-
 background-color:#D8FFFE;
-
 }
 
 .container{
 background-color:#FFF19C;
 margin-left:7%;
 margin-right:7%;
+margin-bottom:90px;
 
 }
 
@@ -44,11 +50,8 @@ aside{
 }
 
 img[src*="hon"] {
-    padding-top:50px;
     style:inline;
     padding-right:20px;
+    
 }
 
-aside{
-    padding-top:200px;
-}
