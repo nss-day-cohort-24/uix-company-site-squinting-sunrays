@@ -8,29 +8,31 @@
 }
 
 .headquarters img {
-    padding-left: 10px;
+    padding-left: 135px;
     padding-right: 5px;
 }
 
 .locations h1 {
     margin: 0px;
-    padding-left: 10px;
+    padding-left: 135px;
 }
 
 .locations p {
     margin-top: 19px;
     margin-bottom: 19px;
-    padding-left: 10px;
+    padding-left: 135px;
 }
 
 .other-locations {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .other-locations-2 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .adresses {
@@ -68,4 +70,6 @@
 
 .main-info {
     background-color:#FFF19C;
+    margin-left:7%;
+    margin-right:7%;
 }
