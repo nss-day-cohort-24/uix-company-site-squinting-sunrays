@@ -1,4 +1,9 @@
-.nav-bar {
+tml{
+    position: relative; 
+    min-height: 100%;
+  }
+
+  .nav-bar {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -10,14 +15,33 @@
     padding-right: 20px;
 }
 
-body{
-background-color:#D8FFFE;
-
-}
+html,body{
+    margin:0;
+    padding:0;
+  } 
 
 .container{
-background-color:#FFF19C;
-margin-left:7%;
-margin-right:7%;
+    background-color:#FFF19C;
+    margin-left:7%;
+    margin-right:7%;
+    margin-bottom:90px;
+    padding: 2px 16px;
+    
+    }
+.img {
+  
+}    
 
+.flex-container {
+    display:flex;
 }
+    
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+body{
+    background-color:#D8FFFE;
+        }
