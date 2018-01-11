@@ -9,3 +9,6 @@ var products = [
     {name: "Honey Scale", description: "Honey-colored scale", price: $80, image: images/yellowscale.jpg}
 ];
 
+for (i = 0, i < products.length, i++) {
+    var card = document.getElementsByClassName("card").appendChild
+}
