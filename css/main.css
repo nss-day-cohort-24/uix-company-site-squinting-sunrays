@@ -2,9 +2,53 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    background-color:#FFDAA1
 }
 
 .nav-bar h3 {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+
+
+
+body{
+
+background-color:#D8FFFE;
+
+}
+
+.container{
+background-color:#FFF19C;
+margin-left:7%;
+margin-right:7%;
+
+}
+
+article{
+    float:left;
+    width:550px;
+   padding-top:25px;
+   padding-left:20px;
+}
+
+
+aside{
+    padding-top:25px;
+    padding-left:620px;
+    padding-bottom:50px;
+    padding-right:20px;
+    style:block;
+    align:right;
+}
+
+img[src*="hon"] {
+    padding-top:50px;
+    style:inline;
+    padding-right:20px;
+}
+
+aside{
+    padding-top:200px;
 }
