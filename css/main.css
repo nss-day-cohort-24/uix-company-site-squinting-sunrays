@@ -10,7 +10,8 @@
     padding-right: 20px;
 }
 
-body{
+.header-logo{}
+body {
 background-color:#D8FFFE;
 
 }
@@ -22,18 +23,29 @@ margin-right:7%;
 
 }
 
-.flexbox{
-    display: flex;
-    flex-wrap: nowrap;
-    background-color:;
-    }
-
-
-
-.flex-item{
-margin:30px;
+article{
+    float:left;
+    width:550px;
+   padding-top:25px;
+   padding-left:20px;
 }
 
+
 aside{
-    padding-top:200px;
+    padding-top:25px;
+    padding-left:620px;
+    padding-bottom:50px;
+    padding-right:20px;
+    style:block;
+    align:right;
+}
+
+img[src*="hon"] {
+    padding-top:50px;
+    style:inline;
+    padding-right:20px;
+}
+
+p {
+    text-indent:6mm;
 }
