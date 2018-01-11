@@ -10,8 +10,11 @@
     padding-right: 20px;
 }
 
-.header-logo{}
-body {
+
+
+
+body{
+
 background-color:#D8FFFE;
 
 }
@@ -46,6 +49,6 @@ img[src*="hon"] {
     padding-right:20px;
 }
 
-p {
-    text-indent:6mm;
+aside{
+    padding-top:200px;
 }
