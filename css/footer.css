@@ -8,25 +8,33 @@
     text-align: ;
     
   }
-
-  li {
-    text-decoration: none;
-  }
-
-  .footer-nav > li {
-    float: left;
+/* footer link styles */
+  ul {
     list-style-type: none;
-    margin: 5px 15px 0 15px;
-    font-family: "Arial";
-    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
     
 }
 
-.footer-nav > li:hover {
-    color: white;
+li a:hover {
+    background-color: #fa960042;
 }
-
   /* social media link style */
+  .social {
+      float: left;
+  }
   .fa {
     padding: 10px;
     font-size: 20px;
