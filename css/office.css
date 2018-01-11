@@ -3,31 +3,35 @@
     margin-left:7%;
     margin-right:7%;
     padding-bottom: 130px;
+    font-family: 'Ubuntu', sans-serif;
     }
 
     .headquarters {
         display: flex;
+        justify-content: flex-start;
         align-items: center;
     }
 
     .headquarters h3 {
         padding-left: 5px;
+        margin-top: 40px;
     }
 
     .headquarters img {
-        padding-left: 135px;
+        padding-left: 115px;
         padding-right: 5px;
+        margin-top: 20.28px;
     }
 
     .locations h1 {
         margin: 0px;
-        padding-left: 135px;
+        padding-left: 115px;
     }
 
     .locations p {
         margin-top: 19px;
         margin-bottom: 19px;
-        padding-left: 135px;
+        padding-left: 115px;
     }
 
     .other-locations {
