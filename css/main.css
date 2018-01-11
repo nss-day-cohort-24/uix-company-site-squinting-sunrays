@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
 .nav-bar {
     display: flex;
     align-items: center;
@@ -10,11 +14,15 @@
     padding-right: 20px;
 }
 
+<<<<<<< HEAD
+body{
+=======
 
 
 
 body{
 
+>>>>>>> master
 background-color:#D8FFFE;
 
 }
@@ -26,6 +34,18 @@ margin-right:7%;
 
 }
 
+<<<<<<< HEAD
+.flexbox{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:;
+    }
+
+
+
+.flex-item{
+margin:30px;
+=======
 article{
     float:left;
     width:550px;
@@ -47,8 +67,13 @@ img[src*="hon"] {
     padding-top:50px;
     style:inline;
     padding-right:20px;
+>>>>>>> master
 }
 
 aside{
     padding-top:200px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> master
