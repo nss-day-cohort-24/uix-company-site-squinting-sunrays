@@ -5,7 +5,12 @@
     left: 0;
     padding: 1rem;
     background-color: #FFDAA1;
-    text-align: center;
+    text-align: ;
+    
+  }
+
+  li {
+    text-decoration: none;
   }
 
   .footer-nav > li {
@@ -14,6 +19,7 @@
     margin: 5px 15px 0 15px;
     font-family: "Arial";
     cursor: pointer;
+    
 }
 
 .footer-nav > li:hover {
