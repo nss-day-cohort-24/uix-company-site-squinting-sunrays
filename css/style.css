@@ -1,0 +1,56 @@
+html{
+    position:relative; 
+    min-height: 100%;
+  }
+
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:#FFDAA1
+}
+
+.nav-bar h3 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+html,body{
+    margin:0;
+    padding:0;
+  } 
+
+  .container{
+    background-color:#FFF19C;
+    margin-left:7%;
+    margin-right:7%;
+    margin-bottom:90px;
+    
+    }
+    
+
+    body{
+        background-color:#D8FFFE;
+        }
+        
+    article{
+        float:left;
+        width:550px;
+       padding-top:25px;
+       padding-left:20px;
+    }
+    
+    
+    aside{
+        padding-top:25px;
+        padding-left:620px;
+        padding-bottom:50px;
+        padding-right:20px;
+    
+        align-items:right;
+    }
+    
+    img[src*="hon"] {
+    
+        padding-right:20px;
+    }
