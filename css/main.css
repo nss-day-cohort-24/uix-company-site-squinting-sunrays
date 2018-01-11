@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 html{
     position:relative; 
     min-height: 100%;
   }
+=======
+@font-face {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+>>>>>>> master
 
 .nav-bar {
     display: flex;
@@ -15,12 +21,24 @@ html{
     padding-right: 20px;
 }
 
+<<<<<<< HEAD
 html,body{
     margin:0;
     padding:0;
   } 
 
 body{
+=======
+<<<<<<< HEAD
+body{
+=======
+
+
+
+body{
+
+>>>>>>> master
+>>>>>>> master
 background-color:#D8FFFE;
 }
 
@@ -32,6 +50,18 @@ margin-bottom:90px;
 
 }
 
+<<<<<<< HEAD
+.flexbox{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:;
+    }
+
+
+
+.flex-item{
+margin:30px;
+=======
 article{
     float:left;
     width:550px;
@@ -52,6 +82,19 @@ aside{
 img[src*="hon"] {
     style:inline;
     padding-right:20px;
+<<<<<<< HEAD
     
 }
 
+=======
+>>>>>>> master
+}
+
+aside{
+    padding-top:200px;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> master
+>>>>>>> master
