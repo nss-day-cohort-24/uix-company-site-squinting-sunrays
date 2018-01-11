@@ -1,9 +1,15 @@
+html,body{
+    margin:0;
+    padding:0;
+  } 
+
 .main-info {
     background-color:#FFF19C;
     margin-left:7%;
     margin-right:7%;
     padding-bottom: 130px;
     font-family: 'Ubuntu', sans-serif;
+    margin-bottom:90px;
     }
 
     .headquarters {

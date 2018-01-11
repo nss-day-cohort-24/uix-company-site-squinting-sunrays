@@ -1,3 +1,8 @@
+html,body{
+  margin:0;
+  padding:0;
+} 
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -5,6 +10,7 @@
     background-color:  #fa960027;
     padding: 50px;
     margin-top: 65px;
+    margin-bottom:150px;
     
   }
   .grid-container > div {
