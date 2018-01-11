@@ -1,3 +1,13 @@
+a {
+    color:black;
+    text-decoration:none;
+}
+
+a:hover{
+    color:white;
+    background-color:#fa960042;
+}
+
 html{
     position:relative; 
     min-height: 100%;
@@ -53,4 +63,21 @@ html,body{
     img[src*="hon"] {
     
         padding-right:20px;
+    }
+
+    p{
+        text-indent: 6mm;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    h1{
+        font-family: 'Ubuntu', sans-serif;
+        font-size:36px;
+    }
+    h2{
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    footer{
+        font-family: 'Ubuntu', sans-serif;
     }
