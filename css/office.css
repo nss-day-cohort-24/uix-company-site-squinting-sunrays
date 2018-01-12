@@ -9,7 +9,7 @@ html,body{
     margin-right:7%;
     padding-bottom: 130px;
     font-family: 'Ubuntu', sans-serif;
-    margin-bottom:90px;
+    margin-bottom: 90px;
     }
 
     .headquarters {
@@ -38,21 +38,26 @@ html,body{
         margin-top: 19px;
         margin-bottom: 19px;
         padding-left: 115px;
+        text-indent: 0px;
     }
 
     .other-locations {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
     }
+
+        .other-locations p {
+            text-indent: 0px;
+        }
 
         .adresses-1 {
             display: flex;
             flex-direction: column;
-            padding-left: 10px;
-            padding-right: 94.265px;
+            padding-left: 115px;
+            padding-right: 150.547px;
         }
-
+        
         .adresses-1 h1 {
             margin-bottom: 4px;
         }
@@ -60,8 +65,8 @@ html,body{
         .adresses-2 {
             display: flex;
             flex-direction: column;
-            padding-left: 10px;
-            padding-right: 42px;
+            padding-left: 115px;
+            padding-right: 32.422px;
         }
 
         .adresses-2 h1 {
@@ -71,12 +76,17 @@ html,body{
     .other-locations-2 {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
     }
+
+        .other-locations-2 p {
+            text-indent: 0px;
+        }
+
         .adresses {
             display: flex;
             flex-direction: column;
-            padding-left: 10px;
+            padding-left: 115px;
             padding-right: 10px;
         }
 
