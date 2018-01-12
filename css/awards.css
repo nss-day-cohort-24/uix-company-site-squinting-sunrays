@@ -16,14 +16,14 @@ html,body{
   .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     font-size: 30px;
     border: 1px solid #fa960027;
     
   }
-
+  
   .grid-container h2 {
-    text-align: center;
+    text-align: right;
   }
   .item1 {
     grid-column-start: 2;
@@ -32,6 +32,6 @@ html,body{
   }
   .item2 {
     grid-column-start: 3;
-    grid-column-end: 8;
+    grid-column-end: 5;
   }
   
