@@ -1,7 +1,17 @@
+a {
+    color:black;
+    text-decoration:none;
+}
+
+a:hover{
+    color:white;
+    background-color:#fa960042;
+}
+
 tml{
     position: relative; 
     min-height: 100%;
-  }
+}
 
   .nav-bar {
     display: flex;
@@ -18,7 +28,7 @@ tml{
 html,body{
     margin:0;
     padding:0;
-  } 
+} 
 
 .container{
     background-color:#FFF19C;
@@ -47,6 +57,7 @@ html,body{
 
 .flexCard img {
     max-width: 150px;
+    max-height: 300px;
 }
 
 .flex-container {
@@ -63,7 +74,7 @@ html,body{
 body{
     background-color:#D8FFFE;
     height: 100%;
-        }
+}
 
 html, body {
     margin: 0px;
@@ -81,11 +92,6 @@ h1{
     font-family: 'Ubuntu', sans-serif;
     font-size:36px;
 }
-h2{
+header, footer, h2 {
     font-family: 'Ubuntu', sans-serif;
-}
-
-footer{
-    font-family: 'Ubuntu', sans-serif;
-   
 }
